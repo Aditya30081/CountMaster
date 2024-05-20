@@ -1,26 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class MainMenu : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
-    public void Play() 
-    
-    {
-        SceneManager.LoadScene("Menu");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63891b5922fc1777b6829be189772826479eed41203ba2509c76b95bc04b070c
+size 436

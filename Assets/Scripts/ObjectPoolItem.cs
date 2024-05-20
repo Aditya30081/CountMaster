@@ -1,23 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-[System.Serializable]
-public class ObjectPooler : MonoBehaviour
-{
-	[System.Serializable]
-	public class ObjectPoolItem
-	{
-
-		public GameObject objectToPool;
-		public int amountToPool;
-		public bool shouldExpand = true;
-
-		public ObjectPoolItem(GameObject obj, int amt, bool exp = true)
-		{
-			objectToPool = obj;
-			amountToPool = Mathf.Max(amt,2);
-			shouldExpand = exp;
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d5c19e364d9ead2b9882681139ea82b472f2ea5ab918212e671a9b5fd4af052
+size 481
